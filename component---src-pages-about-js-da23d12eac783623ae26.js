@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[682],{5465:function(e,t,n){n.r(t),n.d(t,{Head:function(){return u}});var l=n(7294);t.default=()=>l.createElement("div",null,"I'm an about page!");const u=()=>l.createElement("title",null,"About Page")}}]);
+//# sourceMappingURL=component---src-pages-about-js-da23d12eac783623ae26.js.map
