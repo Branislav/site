@@ -4,9 +4,10 @@
 module.exports = {
   siteMetadata: {
     title: `Blog`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://Branislav.github.io/site`
   },
-  plugins: ["gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: [//"gatsby-plugin-google-gtag", 
+            "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"

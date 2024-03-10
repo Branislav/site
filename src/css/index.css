@@ -1,0 +1,71 @@
+body, html {
+  margin: 0;
+}
+.pageStyles {
+  color: #baabe7;
+  padding: 96px;
+  font-family: -apple-system, Roboto, sans-serif, serif;
+  background-color: #22252c;
+}
+
+.headingStyles {
+  margin-top: 0;
+  margin-bottom: 64px;
+  max-width: 1860px;
+  font-size: xxx-large;
+}
+.headingAccentStyles {
+  color: #aa5ded;
+}
+.paragraphStyles {
+  margin-bottom: 48px;
+  font-size: xx-large;
+}
+.codeStyles {
+  color: #8A6534;
+  padding: 4px;
+  background-color: #FFF4DB;
+  font-size: xx-large;
+  border-radius: 4px;
+}
+.listStyles {
+  margin-bottom: 96px;
+  padding-left: 0;
+}
+.listItemStyles {
+  font-weight: 300;
+  font-size: x-large;
+  max-width: 1860px;
+  margin-bottom: 30px;
+}
+
+.linkStyle {
+  color: #aa5ded;
+  font-weight: bold;
+  font-size: xx-large;
+  vertical-align: 5%;
+}
+
+.descriptionStyle {
+  color: #baabe7;
+  font-size: x-large;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 1.25;
+}
+
+.badgeStyle {
+  color: #fff;
+  background-color: #088413;
+  border: 1px solid #088413;
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  padding: 14px 6px;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  margin-left: 10px;
+  line-height: 1px;
+}
