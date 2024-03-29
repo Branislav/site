@@ -17,39 +17,39 @@ const listItemStyles = {
 ///>
 
 const links = [
-  {
-    date: "",
-    text: "Support: Humans",
-    url: "https://www.gatsbyjs.com/docs/tutorial/getting-started/",
-    description: "",
-    badge: true,
-    color: "#E95800",
-  },
+  // {
+  //   date: "",
+  //   text: "Support: Humans",
+  //   url: "https://www.gatsbyjs.com/docs/tutorial/getting-started/",
+  //   description: "",
+  //   badge: true,
+  //   color: "#E95800",
+  // },
   {
     date: "",
     text: "Support: Principles",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
+    url: "/support-principles/",
     description:"",
     color: "#1099A8",
   },
   {
     date: "",
     text: "Support: Role",
-    url: "https://www.gatsbyjs.com/docs/reference/",
+    url: "/support-the-role/",
     description: "",
     color: "#BC027F",
   },
   {
     date: "",
     text: "Support",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
+    url: "/support/",
     description:"",
     color: "#0D96F2",
   },
   {
     date: "",
     text: "Leading people",
-    url: "https://www.gatsbyjs.com/plugins",
+    url: "/leading-people/",
     description:"",
     color: "#8EB814",
   },
@@ -92,7 +92,7 @@ const IndexPage = () => {
               {link.date} &nbsp;&nbsp;
               <a
                 className="linkStyle"
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+                href={`${link.url}?utm_source=homepage&utm_medium=homepage&utm_campaign=weee`}
               >
                 {link.text}
               </a>

@@ -6,7 +6,7 @@ const Header = () => {
         <ul className="menu">
             <li className="menuItem"><a href="/">Thoughts</a></li>
             <li className="menuItem"><a href="/about">About</a></li>
-            <li className="menuItem"><a href="#">Chat</a></li>
+            <li className="menuItem"><a href="https://app.reclaim.ai/m/branny/vent" target="_blank" rel="noreferrer">Chat</a></li>
         </ul>
     )
 }
