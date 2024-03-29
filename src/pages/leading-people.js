@@ -20,7 +20,7 @@ const LeadingPeoplePage = () => {
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1787491705&color=%232a2020&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
         </iframe>
         <p className="pageParagraphStyles">
-        Roughly a hundred years ago, an industrial engineer named Frederick W. Taylor established and advocated for what is known as <a href="https://www.britannica.com/science/Taylorism" target="_blank">Taylorism. </a> 
+        Roughly a hundred years ago, an industrial engineer named Frederick W. Taylor established and advocated for what is known as <a href="https://www.britannica.com/science/Taylorism" target="_blank" rel="noreferrer">Taylorism. </a> 
          He said that to mass-produce efficiently, the operation needs some people (the few) who think and other people (the many) who do. 
         While Mr Taylor may no longer be actively quoted, his thoughts and ideas are still deeply rooted in society.
         </p>

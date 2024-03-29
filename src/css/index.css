@@ -25,7 +25,36 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
   font-family: -apple-system, Roboto, sans-serif, serif;
   background-color: #181a1f;
 }
-
+@media screen and (max-width: 500px) {
+  .pageStyles {
+    color: #baabe7;
+    padding-top: 48px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-family: -apple-system, Roboto, sans-serif, serif;
+    background-color: #181a1f;
+  }
+  .paragraphStyles {
+    max-width: 90vw !important;
+  }
+  
+  .pageParagraphStyles {
+    max-width: 90vw !important;
+  }
+  .heading2Styles {
+    max-width: 90vw !important;
+  }
+  .linkStyle {
+    max-width: 90vw !important;
+  }
+  .headingStyles{ 
+    max-width: 90vw !important;
+  }
+  .listStyles li{
+    max-width: 90vw !important;
+  }
+  
+}
 @media screen and (min-width: 1200px) {
   .pageStyles {
     color: #baabe7;
@@ -64,7 +93,7 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
     padding-left: 10vw;
     padding-right: 10vw;
     font-family: -apple-system, Roboto, sans-serif, serif;
-    background-color: #22252c;
+    background-color: #181a1f;
   }
   .paragraphStyles {
     margin-bottom: 18px !important;

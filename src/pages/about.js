@@ -13,6 +13,7 @@ const AboutPage = () => {
             across multiple industries, I've seen and successfully 
             navigated through all stages of startup and scaleup development. 
             I'm based in Hilversum, heading the lovely support team at Omnipresent.
+            <br/>
             <br/> 
             Currently tinkering with my home server running local network services, 
             including but not limited to, a voice powered shopping list, offline wiki, 

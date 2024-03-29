@@ -73,7 +73,7 @@ const IndexPage = () => {
       <p className="paragraphStyles">
         I design, implement and scale human-friendly systems in the 
         <span className="headingAccentStyles"> customer experience </span>
-        space. Appreciating excellence and pursuing &nbsp;
+        space. <br/>Appreciating excellence and pursuing &nbsp; 
         <a
           href="https://www.britannica.com/topic/eudaimonia"
           target="_blank"
@@ -81,7 +81,7 @@ const IndexPage = () => {
           rel="noreferrer">
            eudaimonia
         </a>
-        &nbsp;, one day at a time.
+      , one day at a time.
       </p>
          
       <ul className="listStyles">
@@ -114,4 +114,18 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Branny's Thoughts</title>
+let description = 'This is the place Branislav (Branny) records his thoughts on customer service, support and other relevant or irrelevant topics.'
+
+const SEO = ({ children }) => (
+  <>
+    <title>Branny's Thoughts</title>
+    <description>{description}</description>
+    <meta name="description" content={description}></meta>
+    {children}
+  </>
+)
+
+export const Head = () => (
+  <SEO>
+  </SEO>
+)
