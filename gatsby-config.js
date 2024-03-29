@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Blog`,
-    siteUrl: `https://Branislav.github.io/site`
+    siteUrl: `https://balazevic.com`
   },
   plugins: [//"gatsby-plugin-google-gtag", 
             "gatsby-plugin-image", "gatsby-plugin-sitemap", {

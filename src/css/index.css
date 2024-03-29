@@ -35,6 +35,27 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
     font-family: -apple-system, Roboto, sans-serif, serif;
     background-color: #22252c;
   }
+  .paragraphStyles {
+    max-width: 60vw !important;
+  }
+  
+  .pageParagraphStyles {
+    max-width: 60vw !important;
+  }
+  .heading2Styles {
+    max-width: 60vw !important;
+  }
+  .linkStyle {
+    max-width: 60vw !important;
+  }
+  .headingStyles{ 
+    max-width: 60vw !important;
+  }
+  .listStyles li{
+    max-width: 60vw !important;
+    
+  }
+  
 }
 @media screen and (max-width: 1200px) {
   .pageStyles {
@@ -45,6 +66,26 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
     font-family: -apple-system, Roboto, sans-serif, serif;
     background-color: #22252c;
   }
+  .paragraphStyles {
+    margin-bottom: 18px !important;
+    font-size: 3.5vw !important;
+  }
+  
+  .pageParagraphStyles {
+    margin-bottom: 18px !important;
+    font-size: 3vw !important;
+  }
+  .heading2Styles {
+    margin-top: 0;
+    margin-bottom: 24px !important;
+    font-size: 4.5vw !important;
+  }
+  .linkStyle {
+    font-size: 5.5vw !important;
+  }
+  .menuItem {
+    font-size: 3.5vw !important;
+  }
 }
 
 .headingStyles {
@@ -52,6 +93,12 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
   margin-bottom: 64px;
   max-width: 1200px;
   font-size: 4.5vw;
+}
+.heading2Styles {
+  margin-top: 0;
+  margin-bottom: 64px;
+  max-width: 1200px;
+  font-size: 2.5vw;
 }
 .headingAccentStyles {
   color: #aa5ded;
@@ -62,6 +109,7 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
   max-width: 1200px;
   text-align: justify;
 }
+
 .pageParagraphStyles {
   margin-bottom: 48px;
   font-size: 2vw;

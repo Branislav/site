@@ -9,13 +9,14 @@ const AboutPage = () => {
             <h1 className="headingStyles">
             <span className="headingAccentStyles">About me</span></h1>
             <p className="pageParagraphStyles">
-            With over 7 years of experience designing and building support teams 
-            from the ground up across multiple industries, I've seen and successfully 
+            With over 7 years of experience designing and building support systems 
+            across multiple industries, I've seen and successfully 
             navigated through all stages of startup and scaleup development. 
-            I'm based in Hilversum, heading the lovely support team at Omnipresent. 
+            I'm based in Hilversum, heading the lovely support team at Omnipresent.
+            <br/> 
             Currently tinkering with my home server running local network services, 
             including but not limited to, a voice powered shopping list, offline wiki, 
-            personal cloud storage, home automations and a whole lot more. 
+            storage, home automations and a whole lot more. 
             </p>
             <p className="pageParagraphStyles"> Connect:&nbsp;  
             <a 

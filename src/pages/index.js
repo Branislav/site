@@ -56,7 +56,7 @@ const links = [
   {
     date: "",
     text: "What is excellent service?",
-    url: "https://www.gatsbyjs.com/cloud",
+    url: "/what-is-excellent-service/",
     description: "",
     color: "#663399",
   },
@@ -68,7 +68,6 @@ const IndexPage = () => {
       <Header/>
       <h1 className="headingStyles">
         I'm Branny -
-        <br />
         <span className="headingAccentStyles"> an explorer, thinker and tinkerer.</span>
       </h1>
       <p className="paragraphStyles">
