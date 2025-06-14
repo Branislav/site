@@ -1,5 +1,6 @@
 import * as React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../css/index.css";
 
 const SupportTheRolePage = () => {
@@ -30,6 +31,7 @@ const SupportTheRolePage = () => {
         <p className="pageParagraphStyles">
         Not aligning your support teams along a common set of principles, metrics, and philosophy is industry-standard - yet it led many to churn, stifled growth, the subpar situation we explored in the previous post and experienced more than once ourselves. On the other hand, the benefits of a unified approach to support could potentially lead to exponential growth.    
         </p>
+        <Footer/>
     </main>
     )
 }

@@ -1,5 +1,6 @@
 import * as React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../css/index.css";
 import image from '../images/literate-and-illiterate-world-population.webp'
 
@@ -15,7 +16,7 @@ const LeadingPeoplePage = () => {
             width="100%" 
             height="166" 
             scrolling="no" 
-            frameborder="no" 
+            frameBorder="no" 
             allow="autoplay" 
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1787491705&color=%232a2020&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
         </iframe>
@@ -24,7 +25,7 @@ const LeadingPeoplePage = () => {
          He said that to mass-produce efficiently, the operation needs some people (the few) who think and other people (the many) who do. 
         While Mr Taylor may no longer be actively quoted, his thoughts and ideas are still deeply rooted in society.
         </p>
-        <img className="pageParagraphStyles" src={image}></img>
+        <img className="pageParagraphStyles" src={image} alt="Graph showing how over the past 100 years, the ratio of literate and illiterate people has reversed in favour of literate people"></img>
         <p className="pageParagraphStyles">
         If we look at world literacy around and before the 1900s, the logic behind Taylorism is somewhat sound. The few literate people led the illiterate masses to optimization and effectiveness, often with immense success. That success, in turn, led to massive improvements in literacy rates and education overall and yet Taylorism is still around. Weird, isn't it?
         </p>
@@ -60,6 +61,7 @@ const LeadingPeoplePage = () => {
         <p className="pageParagraphStyles">
         Ignoring or suppressing this information sends a signal that Taylorism is alive and well.
         </p>
+        <Footer/>
     </main>
     )
 }

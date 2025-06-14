@@ -16,18 +16,56 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
 }
 .menuItem a {
   padding: 16px;
-  color: #baabe7;
+  color: #ffffff;
+}
+
+.row {
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.rowItem{
+  font-size: 2vw;
+  max-width: 50%;
+  padding: 4vw;
+  align-content: center;
+  display: inline-block;
+  color: #ffffff;
+}
+.rowItem a {
+  color:#ffffff
+}
+.rowIcon{
+  max-height: 2vw;
+  max-width: 2vw;
+}
+.footerRowItem{
+  font-size: 2vw;
+  max-width: 100%;
+  align-content: center;
+  color: #ffffff;
 }
 
 .pageStyles {
-  color: #baabe7;
+  color: #ffffff;
   padding: 48px;
   font-family: -apple-system, Roboto, sans-serif, serif;
   background-color: #181a1f;
 }
+.halfWidth{
+  max-width: 50%;
+  display: inline-block;
+ 
+}
+.halfWidth img{
+  max-width: 40%;
+  display: inline-block;
+ 
+}
 @media screen and (max-width: 500px) {
   .pageStyles {
-    color: #baabe7;
+    color: #ffffff;
     padding-top: 48px;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -53,11 +91,14 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
   .listStyles li{
     max-width: 90vw !important;
   }
+  .footerRowItem{
+    max-width: 90vw !important;
+  }
   
 }
 @media screen and (min-width: 1200px) {
   .pageStyles {
-    color: #baabe7;
+    color: #ffffff;
     padding-top: 48px;
     padding-left: 20vw;
     padding-right: 20vw;
@@ -84,14 +125,23 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
     max-width: 60vw !important;
     
   }
+  .footerRowItem{
+    max-width: 60vw !important;
+  }
+  .halfWidth {
+    max-width: 50%;
+  }
+  .halfWidth img {
+    max-width: 90%;
+  }
   
 }
 @media screen and (max-width: 1200px) {
   .pageStyles {
-    color: #baabe7;
+    color: #ffffff;
     padding-top: 48px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     font-family: -apple-system, Roboto, sans-serif, serif;
     background-color: #181a1f;
   }
@@ -102,7 +152,7 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
   
   .pageParagraphStyles {
     margin-bottom: 18px !important;
-    font-size: 3vw !important;
+    font-size: 4vw !important;
   }
   .heading2Styles {
     margin-top: 0;
@@ -115,13 +165,38 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
   .menuItem {
     font-size: 3.5vw !important;
   }
+  .footerRowItem{
+    font-size: 3.5vw !important;
+  }
+  .rowItem{
+    font-size: 3.5vw; 
+  }
+  .halfWidth {
+    max-width: 100%;
+  }
+  .halfWidth img {
+    max-width: 100%;
+  }
 }
-
+@media screen and (min-width: 2400px) {
+  .halfWidth {
+    max-width: 50%;
+    
+  }
+  .halfWidth img {
+    max-width: 90%;
+    margin-bottom: 4vw;
+  }
+}
 .headingStyles {
   margin-top: 0;
   margin-bottom: 64px;
   max-width: 1200px;
   font-size: 4.5vw;
+}
+.headingStyles a {
+  color: white;
+  text-align: center;
 }
 .heading2Styles {
   margin-top: 0;
@@ -175,7 +250,7 @@ body, html, #gatsby-focus-wrapper, #__gatsby {
 }
 
 .descriptionStyle {
-  color: #baabe7;
+  color: #ffffff;
   font-size: 2vw;
   margin-top: 10px;
   margin-bottom: 0;

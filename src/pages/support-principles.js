@@ -1,5 +1,6 @@
 import * as React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../css/index.css";
 
 const SupportPrinciplesPage = () => {
@@ -22,7 +23,7 @@ const SupportPrinciplesPage = () => {
         The principles of excellent support can be boiled down to automating, perfecting and being a decent human being. 99% of negatively rated interactions with support stem from a lack of understanding or investment in one or more of these principles. Let's venture into exploring each one:
         </p>
         <p className="pageParagraphStyles"> 
-        <b><i>The first principle of Support.</i></b><br/>
+        <b><i><br/>The first principle of Support.</i></b><br/><br/>
         What can be automated should carefully be automated, minding the ongoing maintenance needs and automation intertwining. What is feasible should be built into the platform via interactions and feedback flows set up with the platform builders. What can't be built into the platform should be organized into automation sets centred around 3rd party tools and treated as separate products. Continuous iteration must be applied similarly to how the platform is being built - these automation sets aren't adjacent to our user's experience - they are an integral part of it, even if the tool is internal!
         </p>
         <p className="pageParagraphStyles">
@@ -35,7 +36,7 @@ const SupportPrinciplesPage = () => {
         Ultimately, a well-engineered deflection and self-serve system allow humans within Support to grow, specialise and develop the critical experience needed to make the second principle of Support possible.
         </p>
         <p className="pageParagraphStyles"> 
-        <b><i>The second principle of Support:</i></b><br/>
+        <b><i><br/>The second principle of Support:</i></b><br/><br/>
         What can't be automated should be perfected, to a point where interactions with the user are instinctive and flow naturally, regardless of the channel in use. When our users are forced to interact with a human, their experience matters more than the UX of the platform. This experience must be treated as a product - otherwise scaling it while preserving quality is painstakingly linear and costly.
         </p>
         <p className="pageParagraphStyles">
@@ -57,7 +58,7 @@ const SupportPrinciplesPage = () => {
         An excellent support system is based on trust an ample amount of…
         </p>
         <p className="pageParagraphStyles">
-        <b><i>The third and most important principle of Support:<br/></i></b>
+        <b><i><br/>The third and most important principle of Support:<br/></i></b><br/>
         Kindness.
         </p>
         <p className="pageParagraphStyles">
@@ -66,7 +67,9 @@ const SupportPrinciplesPage = () => {
         <p className="pageParagraphStyles">
         Designing and nourishing an environment in which kindness can flourish takes a very different leadership approach in and out of support. Led by kindness and a genuine desire to grow both user satisfaction and individuals providing support, these leaders influence teams to do their best work by ensuring paths agents take daily towards solutions are paved with kindness and free of friction.  
         </p>
+        <Footer/>
     </main>
+    
     )
 }
 

@@ -1,5 +1,6 @@
 import * as React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../css/index.css";
 
 const SupportPage = () => {
@@ -39,6 +40,7 @@ const SupportPage = () => {
         <p className="pageParagraphStyles">
         Support is not a cost center. It is a key part of the UX, utilized while the service is being discovered, when it fails or whenever anything unclear causes enough concern to a user, prompting them to reach out. Treat Support otherwise and wonder why users are leaving you. Make it a part of your UX, and watch users become your biggest advocates.    
         </p>
+        <Footer/>
     </main>
     )
 }

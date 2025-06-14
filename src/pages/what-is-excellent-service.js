@@ -1,5 +1,6 @@
 import * as React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../css/index.css";
 
 const WhatIsExcellentServicePage = () => {
@@ -133,6 +134,7 @@ const WhatIsExcellentServicePage = () => {
             of hugging - in which case they should be delicate and warm. Forming a ticket reply that lands 
             like a hug, on the other hand is something many organisations can greatly benefit from.
             </p>
+            <Footer/>
         </main>
     )
 }
