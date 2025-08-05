@@ -62,7 +62,7 @@ questions, suggestions, and ideas to start implementing or develop further.
                 During the final session, we'll reflect on our entire journey. I will also share the final recommendations to set you up for success and ensure you stick to the planned actions.
             </p>
             <h3 className="headingStyles">
-            <a href="https://app.reclaim.ai/m/branny/vent" target="_blank">Schedule an intro call</a></h3><br/><br/>
+            <a href="https://app.reclaim.ai/m/branny/intro" target="_blank">Schedule an intro call</a></h3><br/><br/>
             <Footer/>
         </main>
     )
